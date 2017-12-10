@@ -1,0 +1,25 @@
+{
+  "name": "citemplate",
+  "version": "1.0.0",
+  "description": "template cim",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izulweb/cimtemplate.git"
+  },
+  "author": "Izul Chaniago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izulweb/cimtemplate/issues"
+  },
+  "homepage": "https://github.com/izulweb/cimtemplate#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}

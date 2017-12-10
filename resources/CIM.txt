@@ -1,0 +1,133 @@
+LOGO
+	Home
+	About Us
+		About CIM
+		Org Structure
+		Visi
+		Misi
+
+	Broadcast
+		Transmisi
+		Studio
+		[X] Telecomunication
+		
+	Art Production
+		On Air Event
+		Off Air Event
+	Contact US
+
+[ Search ]
+
+[ BANNER IMAGES ] FULL BACKGROUND for HOMEpage only
+
+-----
+What News...
+
+[	IMG		] [	IMG		][	IMG		][	IMG		]
+
+----
+
+DO You have a project or idea?
+[ BUTTON | Let us know! ]
+
+---
+
+ABOUT 				ADDRESS 
+Descriptions
+SOCMED Share
+
+--
+Copyright
+
+
+
+========
+ABOUT
+========
+
+IMAGE
+Body Text
+
+VISI | MISI
+
+	=================
+	Structure Org
+	-----------------
+	Image
+	Body Test
+
+==========
+Broadcast
+==========
+
+1. Broadcast ---> Transmisi
+
+Gambar
+Body Text about transmision
+
+--
+Ada List Products
+[ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ]  <- CARDs
+
+Kalau product di klik akan link ke detail product
+
+
+2. Broadcast ---> Studio
+
+IMAGE
+Descriptions
+
+Type of studio
+STUDIO 1 | STUDIO 2
+
+Kalau di klik link ke detail masing-masing studio, di dalam detail studio ada gallery foto studio dan keterangan + Tombol pemesanan ke kontak
+
+3. Broadcast --> Telecomunication
+	Pending
+
+
+====================
+Art Production
+====================
+	
+	On Air Event
+	==========
+	Image
+	Body Text about on air
+
+	Table list of previous event [Portfolio]
+	Nama Event | Tanggal | Tahun | Lokasi | Kota
+
+	Kalau salah satu event di klik lari ke Detail event + Foto- Foto event dan keterangan event
+
+
+	Off air event
+	Sama dengan on air
+
+
+====================
+Contact
+====================
+PETA GOOGLE
+Alamat, telepon
+Socmed
+
+FORM contact
+
+
+
+
+TIMELINE
+=====================
+
+3 Minggu dari Approval
+
+
+
+
+
+
+
+
+
+
