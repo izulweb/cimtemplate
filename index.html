@@ -7,6 +7,7 @@
 	<title>Citra Info Mediatec</title>
 	<!-- CSS -->
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="build/css/style.css">
 	<!-- JAVASCRIPT -->
 	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
@@ -17,23 +18,24 @@
 
 </head>
 <body>
-
-	<div class="top">
+<div class="top">
 		<div class="container">
 			<div class="row">
-				<div class="col">
-					<p>&nbsp;</p>
+				<div class="col-md-10">
+					Welcome
+				</div>
+				<div class="col-md-2">
+					Social Media Icons
 				</div>
 			</div>
 		</div>
-	</div>
-
+</div>
 
 <!--  Header -->
     <div class="container">
 
 	<!-- TOP Navigation -->
-      <nav class="navbar navbar-light bg-faded rounded navbar-toggleable-md">
+      <nav class="navbar navbar-light bg-faded rounded navbar-toggleable-md iz-top-nav">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#containerNavbar" aria-controls="containerNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +46,7 @@
         <div class="collapse navbar-collapse" id="containerNavbar">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"><i class="fa fa-home"></i> Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
@@ -66,20 +68,19 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Art Production</a>
               <div class="dropdown-menu" aria-labelledby="dropdown03">
-                <a class="dropdown-item" href="#">Transmisi</a>
-                <a class="dropdown-item" href="#">Studio</a>
-                <a class="dropdown-item" href="#">Telecomunication</a>
+                <a class="dropdown-item" href="#">On Air</a>
+                <a class="dropdown-item" href="#">Off Air</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact US</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-md-0">
 		    <div class="input-group">
 		      <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
 		      <span class="input-group-btn">
-		        <button class="btn btn-secondary" type="button">Go!</button>
+		        <button class="btn btn-secondary" type="button"><i class="fa fa-search"></i></button>
 		      </span>
 		    </div>
           </form>
@@ -88,6 +89,7 @@
 
 	<!-- TOP Navigation -->
 	<!-- JUMBOTRON -->
+	  <!--
       <div class="jumbotron">
         <div class="col-sm-12 mx-auto">
           <h1 class="display-3">Welcome</h1>
@@ -97,6 +99,7 @@
           </p>
         </div>
       </div>
+      -->
 	<!--/ JUMBOTRON -->
     </div>
 <!--  Header -->
@@ -106,53 +109,47 @@
 			<div class="col-lg-8">
 				
 				<div class="main-section-1">
-					<div class="container">
 						<h3>Broadcast</h3>
 						<div class="row">
 							<div class="col-md-8">
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/500/275/tech"></a>
+								<a href="#"><img class="img-fluid" src="img/broadcast.jpg"></a>
 							</div>
 							<div class="col-md-4">
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/68/tech"></a>
+								<a href="#"><img class="img-fluid" src="img/broadcast-1-transmisi.jpg"></a>
 								<br><br>
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/68/arch"></a>
+								<a href="#"><img class="img-fluid" src="img/broadcast-2-studio.jpg"></a>
 								<br><br>
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/68/people"></a>
+								<a href="#"><img class="img-fluid" src="img/broadcast-3-telecomunication.jpg"></a>
 							</div>
 						</div>
-					</div>
 				</div>
 				<br>
 				<div class="main-section-1">
-					<div class="container">
 						<h3>Art Production</h3>
 						<div class="row">
 							<div class="col-md-8">
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/500/275/arch"></a>
+								<a href="#"><img class="img-fluid" src="img/Art-Production.jpg"></a>
 							</div>
 							<div class="col-md-4">
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/113/arch"></a>
+								<a href="#"><img class="img-fluid" src="img/Art-Prod-OnAir.jpg"></a>
 								<br><br>
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/113/nature"></a>
+								<a href="#"><img class="img-fluid" src="img/Art-Prod-OffAir.jpg"></a>
 							</div>
 						</div>
-					</div>
 				</div>
 				<br>
 				<div class="main-section-1">
-					<div class="container">
 						<h3>Telecomunication</h3>
 						<div class="row">
 							<div class="col-md-8">
 								<a href="#"><img class="img-fluid" src="https://placeimg.com/500/275/people"></a>
 							</div>
 							<div class="col-md-4">
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/113/tech"></a>
+								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/119/tech"></a>
 								<br><br>
-								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/113/animal"></a>
+								<a href="#"><img class="img-fluid" src="https://placeimg.com/200/119/animal"></a>
 							</div>
 						</div>
-					</div>
 				</div>
 
 			</div>
@@ -162,42 +159,49 @@
 				  <li class="media">
 				    <img class="mr-3 rounded" src="img/thumb64-1.jpg" alt="Generic placeholder image">
 				    <div class="media-body">
-				      <h5 class="mt-0 mb-1">Kunto Aji Syahdukan Brizzi Vidio Fair 2017</h5>
+				      <h6 class="mt-0 mb-1">Kunto Aji Syahdukan Brizzi Vidio Fair 2017</h6>
 				      January 10, 2018
 				    </div>
 				  </li>
 				  <li class="media my-4">
 				    <img class="mr-3 rounded" src="img/thumb64-2.jpg" alt="Generic placeholder image">
 				    <div class="media-body">
-				      <h5 class="mt-0 mb-1">Dapat Medali Kehormatan, Ed Sheeran Ingat Kakek</h5>
+				      <h6 class="mt-0 mb-1">Dapat Medali Kehormatan, Ed Sheeran Ingat Kakek</h6>
 				      December 24, 2017
 				    </div>
 				  </li>
 				  <li class="media my-4">
 				    <img class="mr-3 rounded" src="img/thumb64-3.jpg" alt="Generic placeholder image">
 				    <div class="media-body">
-				      <h5 class="mt-0 mb-1">Tiket Konser Ayat Ayat Cinta Nyaris Ludes</h5>
+				      <h6 class="mt-0 mb-1">Tiket Konser Ayat Ayat Cinta Nyaris Ludes</h6>
 				      December 2, 2017
 				    </div>
 				  </li>
 				  <li class="media my-4">
 				    <img class="mr-3 rounded" src="img/thumb64-2.jpg" alt="Generic placeholder image">
 				    <div class="media-body">
-				      <h5 class="mt-0 mb-1">John Mayer Alami Kondisi Darurat di Tengah Tur</h5>
+				      <h6 class="mt-0 mb-1">John Mayer Alami Kondisi Darurat di Tengah Tur</h6>
 				      October 18, 2017
 				    </div>
 				  </li>
 				  <li class="media my-4">
 				    <img class="mr-3 rounded" src="img/thumb64-1.jpg" alt="Generic placeholder image">
 				    <div class="media-body">
-				      <h5 class="mt-0 mb-1">Tiket Konser Ayat Ayat Cinta Nyaris Ludes</h5>
+				      <h6 class="mt-0 mb-1">Tiket Konser Ayat Ayat Cinta Nyaris Ludes</h6>
 				      December 2, 2017
 				    </div>
 				  </li>
 				  <li class="media my-4">
 				    <img class="mr-3 rounded" src="img/thumb64-3.jpg" alt="Generic placeholder image">
 				    <div class="media-body">
-				      <h5 class="mt-0 mb-1">John Mayer Alami Kondisi Darurat di Tengah Tur</h5>
+				      <h6 class="mt-0 mb-1">John Mayer Alami Kondisi Darurat di Tengah Tur</h6>
+				      October 18, 2017
+				    </div>
+				  </li>
+				  <li class="media my-4">
+				    <img class="mr-3 rounded" src="img/thumb64-2.jpg" alt="Generic placeholder image">
+				    <div class="media-body">
+				      <h6 class="mt-0 mb-1">John Mayer Alami Kondisi Darurat di Tengah Tur</h6>
 				      October 18, 2017
 				    </div>
 				  </li>
